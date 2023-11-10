@@ -1,0 +1,47 @@
+.container {
+    background-color: beige;
+    width: 80%;
+    margin: auto;
+}
+
+/* here is my table, td th styling */
+table, td, th {
+    border: 2px solid;
+    border-collapse: collapse;
+    border-color: #999;
+}
+
+table {
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+td, th {
+    padding: 15px;
+}
+
+th {
+    background-color: dodgerblue;
+    color: white;
+    font-size: 23px;
+}
+
+tr:nth-child(even) {
+    background-color: lightslategray;
+}
+
+tr:hover {
+    color: #999;
+}
+
+/* here is my caption styling */
+caption {
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 10px 0px;
+    color: black;
+}
