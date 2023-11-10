@@ -1,0 +1,51 @@
+.container {
+    background-color: beige;
+    width: 80%;
+    margin: auto;
+    height: 90vh;
+    padding-top: 40px;
+}
+
+/* here is my table, td th styling */
+table, td, th {
+    border-top: 2px solid;
+    border-collapse: collapse;
+    border-color: #999;
+}
+
+table {
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+td, th {
+    padding: 10px;
+}
+
+th {
+    background-color: dodgerblue;
+    color: white;
+    font-size: 20;
+}
+
+tr:hover {
+    background-color: lightgrey;
+}
+
+/* here is my caption styling */
+caption {
+    padding: 10px;
+    font-size: 18px;
+    margin: 10px 0px;
+    color: white;
+    background-color: orange;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+
+    
